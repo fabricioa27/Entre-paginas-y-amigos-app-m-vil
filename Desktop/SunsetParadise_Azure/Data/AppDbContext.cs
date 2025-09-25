@@ -32,7 +32,3 @@ namespace SunsetParadise.Data  // Asegúrate de que esté en este espacio de nombr
         }
     }
 }
-
-
-
-

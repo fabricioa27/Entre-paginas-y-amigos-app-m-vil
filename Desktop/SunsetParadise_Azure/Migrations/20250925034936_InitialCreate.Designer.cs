@@ -12,8 +12,8 @@ using SunsetParadise.Data;
 namespace SunsetParadise.Migrations
 {
     [DbContext(typeof(AppDbContext))]
-    [Migration("20250925012523_UpdateDecimalPrecision")]
-    partial class UpdateDecimalPrecision
+    [Migration("20250925034936_InitialCreate")]
+    partial class InitialCreate
     {
         /// <inheritdoc />
         protected override void BuildTargetModel(ModelBuilder modelBuilder)

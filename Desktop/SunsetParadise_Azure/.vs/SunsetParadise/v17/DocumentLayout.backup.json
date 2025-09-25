@@ -7,36 +7,56 @@
       "RelativeMoniker": "D:0:0:{C1615D04-9370-7A93-E235-D6635993F6B8}|SunsetParadise.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C1615D04-9370-7A93-E235-D6635993F6B8}|SunsetParadise.csproj|c:\\users\\diego\\onedrive\\desktop\\sunsetparadise_azure\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{C1615D04-9370-7A93-E235-D6635993F6B8}|SunsetParadise.csproj|solutionrelative:appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C1615D04-9370-7A93-E235-D6635993F6B8}|SunsetParadise.csproj|c:\\users\\diego\\onedrive\\desktop\\sunsetparadise_azure\\data\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C1615D04-9370-7A93-E235-D6635993F6B8}|SunsetParadise.csproj|solutionrelative:data\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{C1615D04-9370-7A93-E235-D6635993F6B8}|SunsetParadise.csproj|c:\\users\\diego\\onedrive\\desktop\\sunsetparadise_azure\\controllers\\reservationscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{C1615D04-9370-7A93-E235-D6635993F6B8}|SunsetParadise.csproj|solutionrelative:controllers\\reservationscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C1615D04-9370-7A93-E235-D6635993F6B8}|SunsetParadise.csproj|c:\\users\\diego\\onedrive\\desktop\\sunsetparadise_azure\\controllers\\clientscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C1615D04-9370-7A93-E235-D6635993F6B8}|SunsetParadise.csproj|solutionrelative:controllers\\clientscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{C1615D04-9370-7A93-E235-D6635993F6B8}|SunsetParadise.csproj|c:\\users\\diego\\onedrive\\desktop\\sunsetparadise_azure\\views\\rooms\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{C1615D04-9370-7A93-E235-D6635993F6B8}|SunsetParadise.csproj|solutionrelative:views\\rooms\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C1615D04-9370-7A93-E235-D6635993F6B8}|SunsetParadise.csproj|c:\\users\\diego\\onedrive\\desktop\\sunsetparadise_azure\\views\\rooms\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{C1615D04-9370-7A93-E235-D6635993F6B8}|SunsetParadise.csproj|solutionrelative:views\\rooms\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C1615D04-9370-7A93-E235-D6635993F6B8}|SunsetParadise.csproj|c:\\users\\diego\\onedrive\\desktop\\sunsetparadise_azure\\views\\reservations\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{C1615D04-9370-7A93-E235-D6635993F6B8}|SunsetParadise.csproj|solutionrelative:views\\reservations\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C1615D04-9370-7A93-E235-D6635993F6B8}|SunsetParadise.csproj|c:\\users\\diego\\onedrive\\desktop\\sunsetparadise_azure\\views\\reservations\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{C1615D04-9370-7A93-E235-D6635993F6B8}|SunsetParadise.csproj|solutionrelative:views\\reservations\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C1615D04-9370-7A93-E235-D6635993F6B8}|SunsetParadise.csproj|c:\\users\\diego\\onedrive\\desktop\\sunsetparadise_azure\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{C1615D04-9370-7A93-E235-D6635993F6B8}|SunsetParadise.csproj|solutionrelative:views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C1615D04-9370-7A93-E235-D6635993F6B8}|SunsetParadise.csproj|c:\\users\\diego\\onedrive\\desktop\\sunsetparadise_azure\\views\\clients\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{C1615D04-9370-7A93-E235-D6635993F6B8}|SunsetParadise.csproj|solutionrelative:views\\clients\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C1615D04-9370-7A93-E235-D6635993F6B8}|SunsetParadise.csproj|c:\\users\\diego\\onedrive\\desktop\\sunsetparadise_azure\\views\\clients\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{C1615D04-9370-7A93-E235-D6635993F6B8}|SunsetParadise.csproj|solutionrelative:views\\clients\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C1615D04-9370-7A93-E235-D6635993F6B8}|SunsetParadise.csproj|c:\\users\\diego\\onedrive\\desktop\\sunsetparadise_azure\\wwwroot\\site.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{C1615D04-9370-7A93-E235-D6635993F6B8}|SunsetParadise.csproj|solutionrelative:wwwroot\\site.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C1615D04-9370-7A93-E235-D6635993F6B8}|SunsetParadise.csproj|c:\\users\\diego\\onedrive\\desktop\\sunsetparadise_azure\\wwwroot\\css.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{C1615D04-9370-7A93-E235-D6635993F6B8}|SunsetParadise.csproj|solutionrelative:wwwroot\\css.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{C1615D04-9370-7A93-E235-D6635993F6B8}|SunsetParadise.csproj|c:\\users\\diego\\onedrive\\desktop\\sunsetparadise_azure\\controllers\\roomscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{C1615D04-9370-7A93-E235-D6635993F6B8}|SunsetParadise.csproj|solutionrelative:controllers\\roomscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C1615D04-9370-7A93-E235-D6635993F6B8}|SunsetParadise.csproj|c:\\users\\diego\\onedrive\\desktop\\sunsetparadise_azure\\migrations\\appdbcontextmodelsnapshot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C1615D04-9370-7A93-E235-D6635993F6B8}|SunsetParadise.csproj|solutionrelative:migrations\\appdbcontextmodelsnapshot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{C1615D04-9370-7A93-E235-D6635993F6B8}|SunsetParadise.csproj|c:\\users\\diego\\onedrive\\desktop\\sunsetparadise_azure\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{C1615D04-9370-7A93-E235-D6635993F6B8}|SunsetParadise.csproj|solutionrelative:appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C1615D04-9370-7A93-E235-D6635993F6B8}|SunsetParadise.csproj|c:\\users\\diego\\onedrive\\desktop\\sunsetparadise_azure\\migrations\\20250925005553_migrationname.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C1615D04-9370-7A93-E235-D6635993F6B8}|SunsetParadise.csproj|solutionrelative:migrations\\20250925005553_migrationname.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C1615D04-9370-7A93-E235-D6635993F6B8}|SunsetParadise.csproj|c:\\users\\diego\\onedrive\\desktop\\sunsetparadise_azure\\migrations\\20250924220154_initialcreate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C1615D04-9370-7A93-E235-D6635993F6B8}|SunsetParadise.csproj|solutionrelative:migrations\\20250924220154_initialcreate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{C1615D04-9370-7A93-E235-D6635993F6B8}|SunsetParadise.csproj|c:\\users\\diego\\onedrive\\desktop\\sunsetparadise_azure\\validaciones.txt||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{C1615D04-9370-7A93-E235-D6635993F6B8}|SunsetParadise.csproj|solutionrelative:validaciones.txt||{8B382828-6202-11D1-8870-0000F87579D2}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{C1615D04-9370-7A93-E235-D6635993F6B8}|SunsetParadise.csproj|c:\\users\\diego\\onedrive\\desktop\\sunsetparadise_azure\\models\\room.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -47,32 +67,24 @@
       "RelativeMoniker": "D:0:0:{C1615D04-9370-7A93-E235-D6635993F6B8}|SunsetParadise.csproj|solutionrelative:models\\reservation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{C1615D04-9370-7A93-E235-D6635993F6B8}|SunsetParadise.csproj|c:\\users\\diego\\onedrive\\desktop\\sunsetparadise_azure\\migrations\\20250925034936_initialcreate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C1615D04-9370-7A93-E235-D6635993F6B8}|SunsetParadise.csproj|solutionrelative:migrations\\20250925034936_initialcreate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C1615D04-9370-7A93-E235-D6635993F6B8}|SunsetParadise.csproj|c:\\users\\diego\\onedrive\\desktop\\sunsetparadise_azure\\data\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C1615D04-9370-7A93-E235-D6635993F6B8}|SunsetParadise.csproj|solutionrelative:data\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C1615D04-9370-7A93-E235-D6635993F6B8}|SunsetParadise.csproj|c:\\users\\diego\\onedrive\\desktop\\sunsetparadise_azure\\controllers\\clientscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C1615D04-9370-7A93-E235-D6635993F6B8}|SunsetParadise.csproj|solutionrelative:controllers\\clientscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C1615D04-9370-7A93-E235-D6635993F6B8}|SunsetParadise.csproj|c:\\users\\diego\\onedrive\\desktop\\sunsetparadise_azure\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{C1615D04-9370-7A93-E235-D6635993F6B8}|SunsetParadise.csproj|solutionrelative:properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{C1615D04-9370-7A93-E235-D6635993F6B8}|SunsetParadise.csproj|c:\\users\\diego\\onedrive\\desktop\\sunsetparadise_azure\\models\\client.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{C1615D04-9370-7A93-E235-D6635993F6B8}|SunsetParadise.csproj|solutionrelative:models\\client.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C1615D04-9370-7A93-E235-D6635993F6B8}|SunsetParadise.csproj|c:\\users\\diego\\onedrive\\desktop\\sunsetparadise_azure\\views\\clients\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{C1615D04-9370-7A93-E235-D6635993F6B8}|SunsetParadise.csproj|solutionrelative:views\\clients\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C1615D04-9370-7A93-E235-D6635993F6B8}|SunsetParadise.csproj|c:\\users\\diego\\onedrive\\desktop\\sunsetparadise_azure\\views\\clients\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{C1615D04-9370-7A93-E235-D6635993F6B8}|SunsetParadise.csproj|solutionrelative:views\\clients\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C1615D04-9370-7A93-E235-D6635993F6B8}|SunsetParadise.csproj|c:\\users\\diego\\onedrive\\desktop\\sunsetparadise_azure\\views\\reservations\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{C1615D04-9370-7A93-E235-D6635993F6B8}|SunsetParadise.csproj|solutionrelative:views\\reservations\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C1615D04-9370-7A93-E235-D6635993F6B8}|SunsetParadise.csproj|c:\\users\\diego\\onedrive\\desktop\\sunsetparadise_azure\\views\\reservations\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{C1615D04-9370-7A93-E235-D6635993F6B8}|SunsetParadise.csproj|solutionrelative:views\\reservations\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C1615D04-9370-7A93-E235-D6635993F6B8}|SunsetParadise.csproj|c:\\users\\diego\\onedrive\\desktop\\sunsetparadise_azure\\views\\rooms\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{C1615D04-9370-7A93-E235-D6635993F6B8}|SunsetParadise.csproj|solutionrelative:views\\rooms\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C1615D04-9370-7A93-E235-D6635993F6B8}|SunsetParadise.csproj|c:\\users\\diego\\onedrive\\desktop\\sunsetparadise_azure\\views\\rooms\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{C1615D04-9370-7A93-E235-D6635993F6B8}|SunsetParadise.csproj|solutionrelative:views\\rooms\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{C1615D04-9370-7A93-E235-D6635993F6B8}|SunsetParadise.csproj|c:\\users\\diego\\onedrive\\desktop\\sunsetparadise_azure\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
@@ -81,14 +93,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{C1615D04-9370-7A93-E235-D6635993F6B8}|SunsetParadise.csproj|c:\\users\\diego\\onedrive\\desktop\\sunsetparadise_azure\\views\\shared\\_validationscriptspartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{C1615D04-9370-7A93-E235-D6635993F6B8}|SunsetParadise.csproj|solutionrelative:views\\shared\\_validationscriptspartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C1615D04-9370-7A93-E235-D6635993F6B8}|SunsetParadise.csproj|c:\\users\\diego\\onedrive\\desktop\\sunsetparadise_azure\\validaciones.txt||{8B382828-6202-11D1-8870-0000F87579D2}",
-      "RelativeMoniker": "D:0:0:{C1615D04-9370-7A93-E235-D6635993F6B8}|SunsetParadise.csproj|solutionrelative:validaciones.txt||{8B382828-6202-11D1-8870-0000F87579D2}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C1615D04-9370-7A93-E235-D6635993F6B8}|SunsetParadise.csproj|c:\\users\\diego\\onedrive\\desktop\\sunsetparadise_azure\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{C1615D04-9370-7A93-E235-D6635993F6B8}|SunsetParadise.csproj|solutionrelative:properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     }
   ],
   "DocumentGroupContainers": [
@@ -98,7 +102,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 7,
+          "SelectedChildIndex": 8,
           "Children": [
             {
               "$type": "Bookmark",
@@ -110,7 +114,55 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 20,
+              "DocumentIndex": 6,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\diego\\OneDrive\\Desktop\\SunsetParadise_Azure\\Views\\Home\\Index.cshtml",
+              "RelativeDocumentMoniker": "Views\\Home\\Index.cshtml",
+              "ToolTip": "C:\\Users\\diego\\OneDrive\\Desktop\\SunsetParadise_Azure\\Views\\Home\\Index.cshtml",
+              "RelativeToolTip": "Views\\Home\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-09-25T04:37:24.93Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Site.js",
+              "DocumentMoniker": "C:\\Users\\diego\\OneDrive\\Desktop\\SunsetParadise_Azure\\wwwroot\\Site.js",
+              "RelativeDocumentMoniker": "wwwroot\\Site.js",
+              "ToolTip": "C:\\Users\\diego\\OneDrive\\Desktop\\SunsetParadise_Azure\\wwwroot\\Site.js",
+              "RelativeToolTip": "wwwroot\\Site.js",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAA4AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2025-09-25T04:23:43.775Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "css.css",
+              "DocumentMoniker": "C:\\Users\\diego\\OneDrive\\Desktop\\SunsetParadise_Azure\\wwwroot\\css.css",
+              "RelativeDocumentMoniker": "wwwroot\\css.css",
+              "ToolTip": "C:\\Users\\diego\\OneDrive\\Desktop\\SunsetParadise_Azure\\wwwroot\\css.css",
+              "RelativeToolTip": "wwwroot\\css.css",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2025-09-25T04:23:05.879Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "20250925034936_InitialCreate.cs",
+              "DocumentMoniker": "C:\\Users\\diego\\OneDrive\\Desktop\\SunsetParadise_Azure\\Migrations\\20250925034936_InitialCreate.cs",
+              "RelativeDocumentMoniker": "Migrations\\20250925034936_InitialCreate.cs",
+              "ToolTip": "C:\\Users\\diego\\OneDrive\\Desktop\\SunsetParadise_Azure\\Migrations\\20250925034936_InitialCreate.cs",
+              "RelativeToolTip": "Migrations\\20250925034936_InitialCreate.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-25T03:49:37.029Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
               "Title": "validaciones.txt",
               "DocumentMoniker": "C:\\Users\\diego\\OneDrive\\Desktop\\SunsetParadise_Azure\\validaciones.txt",
               "RelativeDocumentMoniker": "validaciones.txt",
@@ -118,60 +170,19 @@
               "RelativeToolTip": "validaciones.txt",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003109|",
-              "WhenOpened": "2025-09-25T01:22:11.512Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-09-25T01:22:11.512Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "AppDbContextModelSnapshot.cs",
-              "DocumentMoniker": "C:\\Users\\diego\\OneDrive\\Desktop\\SunsetParadise_Azure\\Migrations\\AppDbContextModelSnapshot.cs",
-              "RelativeDocumentMoniker": "Migrations\\AppDbContextModelSnapshot.cs",
-              "ToolTip": "C:\\Users\\diego\\OneDrive\\Desktop\\SunsetParadise_Azure\\Migrations\\AppDbContextModelSnapshot.cs",
-              "RelativeToolTip": "Migrations\\AppDbContextModelSnapshot.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-25T01:00:39.349Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "20250925005553_MigrationName.cs",
-              "DocumentMoniker": "C:\\Users\\diego\\OneDrive\\Desktop\\SunsetParadise_Azure\\Migrations\\20250925005553_MigrationName.cs",
-              "RelativeDocumentMoniker": "Migrations\\20250925005553_MigrationName.cs",
-              "ToolTip": "C:\\Users\\diego\\OneDrive\\Desktop\\SunsetParadise_Azure\\Migrations\\20250925005553_MigrationName.cs",
-              "RelativeToolTip": "Migrations\\20250925005553_MigrationName.cs",
-              "ViewState": "AgIAAFEAAAAAAAAAAAAYwAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-25T01:00:35.548Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "20250924220154_InitialCreate.cs",
-              "DocumentMoniker": "C:\\Users\\diego\\OneDrive\\Desktop\\SunsetParadise_Azure\\Migrations\\20250924220154_InitialCreate.cs",
-              "RelativeDocumentMoniker": "Migrations\\20250924220154_InitialCreate.cs",
-              "ToolTip": "C:\\Users\\diego\\OneDrive\\Desktop\\SunsetParadise_Azure\\Migrations\\20250924220154_InitialCreate.cs",
-              "RelativeToolTip": "Migrations\\20250924220154_InitialCreate.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-25T01:00:23.008Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 21,
+              "DocumentIndex": 19,
               "Title": "launchSettings.json",
               "DocumentMoniker": "C:\\Users\\diego\\OneDrive\\Desktop\\SunsetParadise_Azure\\Properties\\launchSettings.json",
               "RelativeDocumentMoniker": "Properties\\launchSettings.json",
               "ToolTip": "C:\\Users\\diego\\OneDrive\\Desktop\\SunsetParadise_Azure\\Properties\\launchSettings.json",
               "RelativeToolTip": "Properties\\launchSettings.json",
-              "ViewState": "AgIAAAoAAAAAAAAAAAAwwBQAAAA2AAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAAAyAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2025-09-24T22:00:15.955Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-09-24T22:00:15.955Z"
             },
             {
               "$type": "Document",
@@ -181,27 +192,26 @@
               "RelativeDocumentMoniker": "Program.cs",
               "ToolTip": "C:\\Users\\diego\\OneDrive\\Desktop\\SunsetParadise_Azure\\Program.cs",
               "RelativeToolTip": "Program.cs",
-              "ViewState": "AgIAAA0AAAAAAAAAAAAAAB0AAAAaAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-09-24T21:08:04.028Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 12,
               "Title": "appsettings.json",
               "DocumentMoniker": "C:\\Users\\diego\\OneDrive\\Desktop\\SunsetParadise_Azure\\appsettings.json",
               "RelativeDocumentMoniker": "appsettings.json",
-              "ToolTip": "C:\\Users\\diego\\OneDrive\\Desktop\\SunsetParadise_Azure\\appsettings.json*",
-              "RelativeToolTip": "appsettings.json*",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAEAAAAAAAAAA==",
+              "ToolTip": "C:\\Users\\diego\\OneDrive\\Desktop\\SunsetParadise_Azure\\appsettings.json",
+              "RelativeToolTip": "appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAEAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2025-09-24T21:01:29.205Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-09-24T21:01:29.205Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 19,
+              "DocumentIndex": 22,
               "Title": "_ValidationScriptsPartial.cshtml",
               "DocumentMoniker": "C:\\Users\\diego\\OneDrive\\Desktop\\SunsetParadise_Azure\\Views\\Shared\\_ValidationScriptsPartial.cshtml",
               "RelativeDocumentMoniker": "Views\\Shared\\_ValidationScriptsPartial.cshtml",
@@ -209,12 +219,11 @@
               "RelativeToolTip": "Views\\Shared\\_ValidationScriptsPartial.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-09-24T21:01:27.999Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-09-24T21:01:27.999Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 18,
+              "DocumentIndex": 21,
               "Title": "_Layout.cshtml",
               "DocumentMoniker": "C:\\Users\\diego\\OneDrive\\Desktop\\SunsetParadise_Azure\\Views\\Shared\\_Layout.cshtml",
               "RelativeDocumentMoniker": "Views\\Shared\\_Layout.cshtml",
@@ -222,12 +231,11 @@
               "RelativeToolTip": "Views\\Shared\\_Layout.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-09-24T21:01:26.834Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-09-24T21:01:26.834Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 17,
+              "DocumentIndex": 2,
               "Title": "Index.cshtml",
               "DocumentMoniker": "C:\\Users\\diego\\OneDrive\\Desktop\\SunsetParadise_Azure\\Views\\Rooms\\Index.cshtml",
               "RelativeDocumentMoniker": "Views\\Rooms\\Index.cshtml",
@@ -235,12 +243,11 @@
               "RelativeToolTip": "Views\\Rooms\\Index.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-09-24T21:01:24.596Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-09-24T21:01:24.596Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 16,
+              "DocumentIndex": 3,
               "Title": "Create.cshtml",
               "DocumentMoniker": "C:\\Users\\diego\\OneDrive\\Desktop\\SunsetParadise_Azure\\Views\\Rooms\\Create.cshtml",
               "RelativeDocumentMoniker": "Views\\Rooms\\Create.cshtml",
@@ -248,12 +255,11 @@
               "RelativeToolTip": "Views\\Rooms\\Create.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-09-24T21:01:22.607Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-09-24T21:01:22.607Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 15,
+              "DocumentIndex": 4,
               "Title": "Index.cshtml",
               "DocumentMoniker": "C:\\Users\\diego\\OneDrive\\Desktop\\SunsetParadise_Azure\\Views\\Reservations\\Index.cshtml",
               "RelativeDocumentMoniker": "Views\\Reservations\\Index.cshtml",
@@ -261,12 +267,11 @@
               "RelativeToolTip": "Views\\Reservations\\Index.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-09-24T21:01:19.697Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-09-24T21:01:19.697Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
+              "DocumentIndex": 5,
               "Title": "Create.cshtml",
               "DocumentMoniker": "C:\\Users\\diego\\OneDrive\\Desktop\\SunsetParadise_Azure\\Views\\Reservations\\Create.cshtml",
               "RelativeDocumentMoniker": "Views\\Reservations\\Create.cshtml",
@@ -274,12 +279,11 @@
               "RelativeToolTip": "Views\\Reservations\\Create.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-09-24T21:01:17.459Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-09-24T21:01:17.459Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 14,
               "Title": "Room.cs",
               "DocumentMoniker": "C:\\Users\\diego\\OneDrive\\Desktop\\SunsetParadise_Azure\\Models\\Room.cs",
               "RelativeDocumentMoniker": "Models\\Room.cs",
@@ -287,77 +291,72 @@
               "RelativeToolTip": "Models\\Room.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-24T21:01:10.577Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-09-24T21:01:10.577Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 15,
               "Title": "Reservation.cs",
               "DocumentMoniker": "C:\\Users\\diego\\OneDrive\\Desktop\\SunsetParadise_Azure\\Models\\Reservation.cs",
               "RelativeDocumentMoniker": "Models\\Reservation.cs",
               "ToolTip": "C:\\Users\\diego\\OneDrive\\Desktop\\SunsetParadise_Azure\\Models\\Reservation.cs",
               "RelativeToolTip": "Models\\Reservation.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAABgAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-24T21:01:09.564Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-09-24T21:01:09.564Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 20,
               "Title": "Client.cs",
               "DocumentMoniker": "C:\\Users\\diego\\OneDrive\\Desktop\\SunsetParadise_Azure\\Models\\Client.cs",
               "RelativeDocumentMoniker": "Models\\Client.cs",
               "ToolTip": "C:\\Users\\diego\\OneDrive\\Desktop\\SunsetParadise_Azure\\Models\\Client.cs",
               "RelativeToolTip": "Models\\Client.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAbAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-24T21:01:07.843Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-09-24T21:01:07.843Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 17,
               "Title": "AppDbContext.cs",
               "DocumentMoniker": "C:\\Users\\diego\\OneDrive\\Desktop\\SunsetParadise_Azure\\Data\\AppDbContext.cs",
               "RelativeDocumentMoniker": "Data\\AppDbContext.cs",
               "ToolTip": "C:\\Users\\diego\\OneDrive\\Desktop\\SunsetParadise_Azure\\Data\\AppDbContext.cs",
               "RelativeToolTip": "Data\\AppDbContext.cs",
-              "ViewState": "AgIAABEAAAAAAAAAAAAAACMAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACEAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-24T21:01:03.269Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-09-24T21:01:03.269Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 11,
               "Title": "RoomsController.cs",
               "DocumentMoniker": "C:\\Users\\diego\\OneDrive\\Desktop\\SunsetParadise_Azure\\Controllers\\RoomsController.cs",
               "RelativeDocumentMoniker": "Controllers\\RoomsController.cs",
               "ToolTip": "C:\\Users\\diego\\OneDrive\\Desktop\\SunsetParadise_Azure\\Controllers\\RoomsController.cs",
               "RelativeToolTip": "Controllers\\RoomsController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAABcAAAAAAAAAAAAgwAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-24T20:57:03.289Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-09-24T20:57:03.289Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 1,
               "Title": "ReservationsController.cs",
               "DocumentMoniker": "C:\\Users\\diego\\OneDrive\\Desktop\\SunsetParadise_Azure\\Controllers\\ReservationsController.cs",
               "RelativeDocumentMoniker": "Controllers\\ReservationsController.cs",
               "ToolTip": "C:\\Users\\diego\\OneDrive\\Desktop\\SunsetParadise_Azure\\Controllers\\ReservationsController.cs",
               "RelativeToolTip": "Controllers\\ReservationsController.cs",
-              "ViewState": "AgIAADYAAAAAAAAAAAAowEgAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAABUAAAAAAAAAAAAYwEgAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-09-24T20:56:58.212Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 7,
               "Title": "Index.cshtml",
               "DocumentMoniker": "C:\\Users\\diego\\OneDrive\\Desktop\\SunsetParadise_Azure\\Views\\Clients\\Index.cshtml",
               "RelativeDocumentMoniker": "Views\\Clients\\Index.cshtml",
@@ -365,12 +364,11 @@
               "RelativeToolTip": "Views\\Clients\\Index.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-09-24T20:56:17.775Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-09-24T20:56:17.775Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 8,
               "Title": "Create.cshtml",
               "DocumentMoniker": "C:\\Users\\diego\\OneDrive\\Desktop\\SunsetParadise_Azure\\Views\\Clients\\Create.cshtml",
               "RelativeDocumentMoniker": "Views\\Clients\\Create.cshtml",
@@ -378,12 +376,11 @@
               "RelativeToolTip": "Views\\Clients\\Create.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-09-24T20:56:13.111Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-09-24T20:56:13.111Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 18,
               "Title": "ClientsController.cs",
               "DocumentMoniker": "C:\\Users\\diego\\OneDrive\\Desktop\\SunsetParadise_Azure\\Controllers\\ClientsController.cs",
               "RelativeDocumentMoniker": "Controllers\\ClientsController.cs",
@@ -391,8 +388,7 @@
               "RelativeToolTip": "Controllers\\ClientsController.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAmAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-24T20:55:11.644Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-09-24T20:55:11.644Z"
             }
           ]
         }

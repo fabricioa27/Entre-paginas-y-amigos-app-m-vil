@@ -1,4 +1,5 @@
 C:\Users\diego\OneDrive\Desktop\SunsetParadise_Azure\bin\Debug\net8.0\appsettings.json
+C:\Users\diego\OneDrive\Desktop\SunsetParadise_Azure\bin\Debug\net8.0\SunsetParadise.staticwebassets.runtime.json
 C:\Users\diego\OneDrive\Desktop\SunsetParadise_Azure\bin\Debug\net8.0\SunsetParadise.staticwebassets.endpoints.json
 C:\Users\diego\OneDrive\Desktop\SunsetParadise_Azure\bin\Debug\net8.0\SunsetParadise.exe
 C:\Users\diego\OneDrive\Desktop\SunsetParadise_Azure\bin\Debug\net8.0\SunsetParadise.deps.json
@@ -164,10 +165,10 @@ C:\Users\diego\OneDrive\Desktop\SunsetParadise_Azure\obj\Debug\net8.0\staticweba
 C:\Users\diego\OneDrive\Desktop\SunsetParadise_Azure\obj\Debug\net8.0\staticwebassets.build.json.cache
 C:\Users\diego\OneDrive\Desktop\SunsetParadise_Azure\obj\Debug\net8.0\staticwebassets.development.json
 C:\Users\diego\OneDrive\Desktop\SunsetParadise_Azure\obj\Debug\net8.0\staticwebassets.build.endpoints.json
+C:\Users\diego\OneDrive\Desktop\SunsetParadise_Azure\obj\Debug\net8.0\staticwebassets.upToDateCheck.txt
 C:\Users\diego\OneDrive\Desktop\SunsetParadise_Azure\obj\Debug\net8.0\SunsetPa.0FD5FB7B.Up2Date
 C:\Users\diego\OneDrive\Desktop\SunsetParadise_Azure\obj\Debug\net8.0\SunsetParadise.dll
 C:\Users\diego\OneDrive\Desktop\SunsetParadise_Azure\obj\Debug\net8.0\refint\SunsetParadise.dll
 C:\Users\diego\OneDrive\Desktop\SunsetParadise_Azure\obj\Debug\net8.0\SunsetParadise.pdb
 C:\Users\diego\OneDrive\Desktop\SunsetParadise_Azure\obj\Debug\net8.0\SunsetParadise.genruntimeconfig.cache
 C:\Users\diego\OneDrive\Desktop\SunsetParadise_Azure\obj\Debug\net8.0\ref\SunsetParadise.dll
-C:\Users\diego\OneDrive\Desktop\SunsetParadise_Azure\obj\Debug\net8.0\staticwebassets.upToDateCheck.txt

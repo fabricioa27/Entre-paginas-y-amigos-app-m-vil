@@ -1,4 +1,3 @@
-
 using Microsoft.EntityFrameworkCore;
 using SunsetParadise.Data;
 //Este ejercicio lo realizaron
@@ -8,12 +7,16 @@ using SunsetParadise.Data;
 //Diego Alejandro Cruz Campos CC251293
 //Carlos Roberto Luna Diaz LD252724
 
+
 var builder = WebApplication.CreateBuilder(args);
 
-// Azure SQL Connection
+// 1. Azure SQL Connection
 var conn = builder.Configuration.GetConnectionString("AzureSql");
-builder.Services.AddDbContext<AppDbContext>(options => options.UseSqlServer(conn));
+builder.Services.AddDbContext<AppDbContext>(options =>
+    options.UseSqlServer(conn));
 
+
+// 2. Agregar servicios
 builder.Services.AddControllersWithViews();
 builder.Services.AddSession(options =>
 {
@@ -21,19 +24,30 @@ builder.Services.AddSession(options =>
     options.IdleTimeout = TimeSpan.FromMinutes(60);
 });
 
+// 3. Construir app (después de registrar servicios)
 var app = builder.Build();
 
-// Apply migrations on startup
+// 4. Migraciones automáticas al iniciar
 using (var scope = app.Services.CreateScope())
 {
     var db = scope.ServiceProvider.GetRequiredService<AppDbContext>();
     db.Database.Migrate();
 }
 
+// 5. Middleware
+if (!app.Environment.IsDevelopment())
+{
+    app.UseExceptionHandler("/Home/Error");
+    app.UseHsts();
+}
+
+app.UseHttpsRedirection();
 app.UseStaticFiles();
 app.UseRouting();
 app.UseSession();
+app.UseAuthorization();
 
+// 6. Rutas
 app.MapControllerRoute(
     name: "root",
     pattern: "",
