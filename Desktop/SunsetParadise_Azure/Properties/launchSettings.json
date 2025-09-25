@@ -1,0 +1,32 @@
+{
+  "iisSettings": {
+    "windowsAuthentication": false,
+    "anonymousAuthentication": true,
+    "iisExpress": {
+      "environmentVariables": {
+        "ASPNETCORE_ENVIRONMENT": "Development"
+      }
+    }
+  },
+  "profiles": {
+    "IIS Express": {
+      "commandName": "IISExpress", // Comando para IIS Express
+      "environmentVariables": {
+        "ASPNETCORE_ENVIRONMENT": "Development"
+      },
+      "applicationUrl": "http://localhost:5000", // Asegúrate de que esté configurado
+      "sslPort": 44352 // Si estás usando HTTPS, configúralo aquí
+    },
+    "SunsetParadise": {
+      "commandName": "Project", // Ejecutar directamente el proyecto
+      "environmentVariables": {
+        "ASPNETCORE_ENVIRONMENT": "Development"
+      },
+      "applicationUrl": "http://localhost:5001", // Configura el puerto adecuado
+      "sslPort": 44353 // Configuración de HTTPS
+    }
+  }
+}
+
+
+

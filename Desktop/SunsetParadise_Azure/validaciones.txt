@@ -1,0 +1,68 @@
+MODELO ROOM
+
+Número de habitación (Number): Debe ser un campo requerido.
+
+Tipo (Type): Debe ser un texto no vacío con una longitud máxima de 40 caracteres.
+
+Precio (Price): Debe ser un número en el rango entre 0 y 10,000.
+
+Estado (Status): Un valor obligatorio que debe ser uno de los valores del enum RoomStatus.
+
+MODELO Cliente
+
+Nombre (Name): Requerido, con una longitud máxima de 80 caracteres.
+
+DUI (DUI): Requiere un formato específico de 9-10 caracteres.
+
+Teléfono (Phone): Requiere un formato de teléfono válido.
+
+MODELO RESERVATION
+
+Cliente (ClientDUI): Requiere que se ingrese un DUI válido.
+
+Habitación (RoomNumber): Requiere un número de habitación válido.
+
+Fechas (CheckIn, CheckOut): Las fechas de entrada y salida deben ser válidas y CheckOut debe ser posterior a CheckIn.
+
+
+En RoomsController (Crear habitación)
+
+Se valida que el número de habitación no se repita.
+
+Si el número de habitación ya existe, se agrega un error al modelo para mostrarlo en la vista.
+
+
+En ClientsController (Crear cliente)
+
+Se valida que el DUI no esté repetido.
+
+Si el DUI ya existe, se agrega un error al modelo.
+
+
+En ReservationsController (Crear reserva)
+
+Fechas de entrada y salida: Se valida que la fecha de salida sea posterior a la fecha de entrada.
+
+
+Modelo Room:
+
+Número, tipo, precio y estado de la habitación.
+
+Modelo Client:
+
+Nombre, DUI, teléfono (con validaciones de formato).
+
+Modelo Reservation:
+
+Cliente, habitación, fechas (valida solapamiento y fechas correctas).
+
+Controladores:
+
+Validación de datos duplicados y solapamiento de fechas en reservas.
+
+Vistas:
+
+Uso de validaciones de jQuery (aunque no reemplazan las del servidor)
+
+
+

@@ -1,0 +1,14 @@
+
+@model IEnumerable<SunsetParadise.Models.Room>
+<div class="d-flex justify-content-between align-items-center mb-3">
+  <h3>Habitaciones</h3>
+  <a class="btn btn-primary" href="@Url.Action("Create", "Rooms")">Nueva</a>
+</div>
+<table class="table table-striped">
+  <thead><tr><th>Número</th><th>Tipo</th><th>Precio</th><th>Estado</th></tr></thead>
+  <tbody>
+  @foreach (var r in Model) {
+    <tr><td>@r.Number</td><td>@r.Type</td><td>$@r.Price</td><td>@r.Status</td></tr>
+  }
+  </tbody>
+</table>

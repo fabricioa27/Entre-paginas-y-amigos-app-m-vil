@@ -1,0 +1,32 @@
+
+@model SunsetParadise.Models.Room
+<h3>Nueva habitación</h3>
+<form asp-action="Create" method="post" class="card card-body">
+  <div class="row g-3">
+    <div class="col-md-3">
+      <label asp-for="Number" class="form-label"></label>
+      <input asp-for="Number" class="form-control" />
+      <span asp-validation-for="Number" class="text-danger"></span>
+    </div>
+    <div class="col-md-4">
+      <label asp-for="Type" class="form-label"></label>
+      <input asp-for="Type" class="form-control" />
+      <span asp-validation-for="Type" class="text-danger"></span>
+    </div>
+    <div class="col-md-3">
+      <label asp-for="Price" class="form-label"></label>
+      <input asp-for="Price" class="form-control" />
+      <span asp-validation-for="Price" class="text-danger"></span>
+    </div>
+    <div class="col-md-2">
+      <label asp-for="Status" class="form-label"></label>
+      <select asp-for="Status" asp-items="Html.GetEnumSelectList<SunsetParadise.Models.RoomStatus>()" class="form-select"></select>
+      <span asp-validation-for="Status" class="text-danger"></span>
+    </div>
+  </div>
+  <div class="mt-3">
+    <button class="btn btn-primary">Guardar</button>
+    <a class="btn btn-secondary" href="@Url.Action("Index", "Rooms")">Cancelar</a>
+  </div>
+</form>
+@await Html.PartialAsync("~/Views/Shared/_ValidationScriptsPartial.cshtml")

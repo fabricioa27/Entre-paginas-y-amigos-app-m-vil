@@ -1,0 +1,24 @@
+
+@model IEnumerable<(SunsetParadise.Models.Reservation r, SunsetParadise.Models.Client c, SunsetParadise.Models.Room room)>
+<div class="d-flex justify-content-between align-items-center mb-3">
+  <h3>Reservas</h3>
+  <a class="btn btn-primary" href="@Url.Action("Create", "Reservations")">Nueva</a>
+</div>
+<table class="table table-striped">
+  <thead>
+    <tr><th>#</th><th>Cliente</th><th>Habitación</th><th>Entrada</th><th>Salida</th><th>Noches</th><th>Total</th></tr>
+  </thead>
+  <tbody>
+  @foreach (var item in Model) {
+    <tr>
+      <td>@item.r.Id</td>
+      <td>@item.c.Name (@item.c.DUI)</td>
+      <td>@item.room.Number - @item.room.Type</td>
+      <td>@item.r.CheckIn.ToString("yyyy-MM-dd")</td>
+      <td>@item.r.CheckOut.ToString("yyyy-MM-dd")</td>
+      <td>@item.r.Nights</td>
+      <td>$@item.r.Total</td>
+    </tr>
+  }
+  </tbody>
+</table>

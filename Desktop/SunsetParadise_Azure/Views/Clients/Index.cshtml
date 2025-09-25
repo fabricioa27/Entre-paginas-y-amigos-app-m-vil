@@ -1,0 +1,14 @@
+
+@model IEnumerable<SunsetParadise.Models.Client>
+<div class="d-flex justify-content-between align-items-center mb-3">
+  <h3>Clientes</h3>
+  <a class="btn btn-primary" href="@Url.Action("Create", "Clients")">Nuevo</a>
+</div>
+<table class="table table-striped">
+  <thead><tr><th>Nombre</th><th>DUI</th><th>Teléfono</th></tr></thead>
+  <tbody>
+  @foreach (var c in Model) {
+    <tr><td>@c.Name</td><td>@c.DUI</td><td>@c.Phone</td></tr>
+  }
+  </tbody>
+</table>
