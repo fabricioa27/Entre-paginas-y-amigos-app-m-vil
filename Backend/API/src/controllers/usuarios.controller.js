@@ -1,5 +1,6 @@
 const UsuarioModel = require('../models/usuario.model');
 const response = require('../helpers/response');
+const bcrypt = require('bcrypt');
 
 const parseId = (param) => {
     const id = parseInt(param, 10);
@@ -28,20 +29,37 @@ exports.findAll = (req, res) => {
     });
 };
 
-// 2. Crear un usuario
-exports.create = (req, res) => {
+// 2. Crear un usuario con contraseña encriptada
+exports.create = async (req, res) => {
     if (!req.body) return response.error(res, 'Contenido vacío', 400);
 
-    const nuevoUsuario = new UsuarioModel({
-        nombre_completo: req.body.nombre_completo,
-        correo: req.body.correo,
-        password: req.body.password
-    });
+    // Ejecutamos tus validaciones primero
+    const erroresValidacion = validateUserFields(req.body);
+    if (erroresValidacion.length > 0) {
+        return response.error(res, erroresValidacion.join(' '), 400);
+    }
 
-    UsuarioModel.create(nuevoUsuario, (err, data) => {
-        if (err) return response.error(res, 'Error al crear usuario', 500);
-        return response.success(res, data, 'Usuario creado', 201);
-    });
+    try {
+        const saltRounds = 10;
+        // Encriptamos el password que viene en el req.body antes de meterlo al modelo
+        const passwordEncriptado = await bcrypt.hash(req.body.password, saltRounds);
+
+        // Creamos la instancia del modelo con la contraseña YA oculta
+        const nuevoUsuario = new UsuarioModel({
+            nombre_completo: req.body.nombre_completo,
+            correo: req.body.correo,
+            password: passwordEncriptado // <-- Aquí pasamos el hash seguro
+        });
+
+        // Guardamos en la base de datos
+        UsuarioModel.create(nuevoUsuario, (err, data) => {
+            if (err) return response.error(res, 'Error al crear usuario', 500);
+            return response.success(res, data, 'Usuario creado con éxito', 201);
+        });
+
+    } catch (error) {
+        return response.error(res, 'Error al procesar la seguridad de la contraseña', 500);
+    }
 };
 
 // 3. Buscar por ID
