@@ -40,10 +40,10 @@ app.use('/api/v1', limiter);
 app.use('/api/v1', routes);
 
 // Respuesta por defecto si entran a /api/v1 sin endpoint
-app.get('/api/v1', (req, res) => {
-    res.json({ 
+app.get('/', (req, res) => {
+    res.status(200).json({
         success: true,
-        message: 'API v1 en linea. Accede a los endpoints disponibles en /api/v1' 
+        message: "¡Bienvenido a la API de Entre Páginas y Amigos! v1 en línea."
     });
 });
 
