@@ -1,5 +1,11 @@
 import React, { useState, useEffect } from 'react';
-import { SafeAreaView, StatusBar, StyleSheet, View, Text, Alert } from 'react-native';
+import {
+  SafeAreaView,
+  StatusBar,
+  StyleSheet,
+  Text,
+  Alert,
+} from 'react-native';
 
 // Importación de pantallas modulares
 import MenuScreen from './src/screens/MenuScreen';
@@ -9,66 +15,132 @@ import CheckoutScreen from './src/screens/CheckoutScreen';
 import FacturaScreen from './src/screens/FacturaScreen';
 
 // Enlaces de integración del Backend
-const API_PRODUCTOS_URL = 'COLOCAR LINK DE LA API'; 
+const API_PRODUCTOS_URL = 'COLOCAR LINK DE LA API';
 const API_CHECKOUT_URL = 'COLOCAR LINK DE LA API';
 const API_VERIFICAR_SESION_URL = 'COLOCAR LINK DE LA API';
 
 export default function App() {
-  const [usuarioLogueado, setUsuarioLogueado] = useState(true); // Manejo estricto por cuenta externa
+  // Cambia a false cuando conectes Firebase Authentication
+  const [usuarioLogueado, setUsuarioLogueado] = useState(true);
+
   const [pantallaActual, setPantallaActual] = useState('menu');
   const [productos, setProductos] = useState([]);
   const [productoSeleccionado, setProductoSeleccionado] = useState(null);
   const [carrito, setCarrito] = useState([]);
 
-  // Formulario unificado en un objeto estructurado
-  const [form, setForm] = useState({ nombre: '', correo: '', direccion: '', tarjeta: '', vencimiento: '', cvv: '' });
+  // Formulario de checkout
+  const [form, setForm] = useState({
+    nombre: '',
+    correo: '',
+    direccion: '',
+    tarjeta: '',
+    vencimiento: '',
+    cvv: '',
+  });
 
+  // Obtener productos desde la API
   useEffect(() => {
-    //  Llamada HTTP GET para alimentar el carrusel de Netflix
     const obtenerProductosDeApi = async () => {
       try {
         const response = await fetch(API_PRODUCTOS_URL);
         const data = await response.json();
         setProductos(data);
       } catch (error) {
-        // Respaldo por si el servidor local está apagado
+        // Datos de respaldo si la API no está disponible
         setProductos([
-          { id: '1', nombre: 'Cien años de soledad', autor: 'Gabriel García Márquez', precio: 15.99, categoria: 'Populares', descripcion: 'La obra cumbre del realismo mágico...', imagen: 'https://images.unsplash.com/photo-1544947950-fa07a98d237f?q=80&w=600&auto=format&fit=crop' },
-          { id: '2', nombre: '1984', autor: 'George Orwell', precio: 11.25, categoria: 'Populares', descripcion: 'Una pavorosa visión distópica...', imagen: 'https://images.unsplash.com/photo-1543002588-bfa74002ed7e?q=80&w=600&auto=format&fit=crop' }
+          {
+            id: '1',
+            nombre: 'Cien años de soledad',
+            autor: 'Gabriel García Márquez',
+            precio: 15.99,
+            categoria: 'Populares',
+            descripcion: 'La obra cumbre del realismo mágico...',
+            imagen:
+              'https://images.unsplash.com/photo-1544947950-fa07a98d237f?q=80&w=600&auto=format&fit=crop',
+          },
+          {
+            id: '2',
+            nombre: '1984',
+            autor: 'George Orwell',
+            precio: 11.25,
+            categoria: 'Populares',
+            descripcion: 'Una pavorosa visión distópica...',
+            imagen:
+              'https://images.unsplash.com/photo-1543002588-bfa74002ed7e?q=80&w=600&auto=format&fit=crop',
+          },
         ]);
       }
     };
+
     obtenerProductosDeApi();
   }, []);
 
+  // Agregar producto al carrito
   const agregarAlCarrito = (producto) => {
-    const existe = carrito.find(item => item.id === producto.id);
+    const existe = carrito.find((item) => item.id === producto.id);
+
     if (existe) {
-      setCarrito(carrito.map(item => item.id === producto.id ? { ...item, cantidad: item.cantidad + 1 } : item));
+      setCarrito(
+        carrito.map((item) =>
+          item.id === producto.id
+            ? { ...item, cantidad: item.cantidad + 1 }
+            : item
+        )
+      );
     } else {
       setCarrito([...carrito, { ...producto, cantidad: 1 }]);
     }
+
     Alert.alert('Añadido', `${producto.nombre} se sumó al carrito.`);
   };
 
+  // Modificar cantidad
   const modificarCantidad = (id, accion) => {
-    const actual = carrito.find(item => item.id === id);
+    const actual = carrito.find((item) => item.id === id);
+
     if (accion === 'mas') {
-      setCarrito(carrito.map(item => item.id === id ? { ...item, cantidad: item.cantidad + 1 } : item));
+      setCarrito(
+        carrito.map((item) =>
+          item.id === id
+            ? { ...item, cantidad: item.cantidad + 1 }
+            : item
+        )
+      );
     } else {
       if (actual.cantidad === 1) {
-        setCarrito(carrito.filter(item => item.id !== id));
+        setCarrito(carrito.filter((item) => item.id !== id));
       } else {
-        setCarrito(carrito.map(item => item.id === id ? { ...item, cantidad: item.cantidad - 1 } : item));
+        setCarrito(
+          carrito.map((item) =>
+            item.id === id
+              ? { ...item, cantidad: item.cantidad - 1 }
+              : item
+          )
+        );
       }
     }
   };
 
-  const obtenerTotal = () => carrito.reduce((acc, item) => acc + (item.precio * item.cantidad), 0).toFixed(2);
+  // Obtener total
+  const obtenerTotal = () =>
+    carrito
+      .reduce((acc, item) => acc + item.precio * item.cantidad, 0)
+      .toFixed(2);
 
+  // Procesar compra
   const procesarCompraConApi = async () => {
-    if (!form.nombre || !form.correo || !form.direccion || !form.tarjeta || !form.vencimiento || !form.cvv) {
-      Alert.alert('Campos Incompletos', 'Por favor, llena toda la información de la factura.');
+    if (
+      !form.nombre ||
+      !form.correo ||
+      !form.direccion ||
+      !form.tarjeta ||
+      !form.vencimiento ||
+      !form.cvv
+    ) {
+      Alert.alert(
+        'Campos incompletos',
+        'Por favor, llena toda la información de la factura.'
+      );
       return;
     }
 
@@ -76,74 +148,112 @@ export default function App() {
       nombre: form.nombre,
       correo: form.correo,
       direccion: form.direccion,
-      fecha_compra: new Date().toLocaleDateString('es-SV') 
+      fecha_compra: new Date().toLocaleDateString('es-SV'),
     };
 
     try {
       await fetch(API_CHECKOUT_URL, {
         method: 'POST',
-        headers: { 'Content-Type': 'application/json' },
-        body: JSON.stringify(datosFactura)
+        headers: {
+          'Content-Type': 'application/json',
+        },
+        body: JSON.stringify(datosFactura),
       });
-    } catch(error) { console.log(error); }
+    } catch (error) {
+      console.log(error);
+    }
 
     setPantallaActual('factura');
   };
 
+  // Limpiar carrito y volver al menú
   const limpiarYRegresar = () => {
     setCarrito([]);
-    setForm({ nombre: '', correo: '', direccion: '', tarjeta: '', vencimiento: '', cvv: '' });
+    setForm({
+      nombre: '',
+      correo: '',
+      direccion: '',
+      tarjeta: '',
+      vencimiento: '',
+      cvv: '',
+    });
     setPantallaActual('menu');
   };
 
+  // Si el usuario no ha iniciado sesión
   if (!usuarioLogueado) {
     return (
-      <SafeAreaView style={styles.bloqueo}><Text style={styles.txt}>Acceso Limitado - Requiere Cuenta</SafeAreaView>
+      <SafeAreaView style={styles.bloqueo}>
+        <Text style={styles.txt}>
+          Acceso Limitado - Requiere Cuenta
+        </Text>
+      </SafeAreaView>
     );
   }
 
   return (
     <SafeAreaView style={styles.safeArea}>
-      <StatusBar barStyle="light-content" backgroundColor="#111" />
+      <StatusBar
+        barStyle="light-content"
+        backgroundColor="#111"
+      />
+
+      {/* Pantalla Menú */}
       {pantallaActual === 'menu' && (
-        <MenuScreen 
-          productos={productos} 
-          cantidadCarrito={carrito.reduce((a,b)=>a+b.cantidad,0)}
+        <MenuScreen
+          productos={productos}
+          cantidadCarrito={carrito.reduce(
+            (acc, item) => acc + item.cantidad,
+            0
+          )}
           onIrAlCarrito={() => setPantallaActual('carrito')}
-          onSeleccionarProducto={(p) => { setProductoSeleccionado(p); setPantallaActual('detalle'); }}
+          onSeleccionarProducto={(producto) => {
+            setProductoSeleccionado(producto);
+            setPantallaActual('detalle');
+          }}
           onAgregarCarrito={agregarAlCarrito}
         />
       )}
+
+      {/* Pantalla Detalle */}
       {pantallaActual === 'detalle' && (
-        <DetalleScreen 
-          producto={productoSeleccionado} 
-          onVolver={() => setPantallaActual('menu')} 
+        <DetalleScreen
+          producto={productoSeleccionado}
+          onVolver={() => setPantallaActual('menu')}
           onAgregarCarrito={agregarAlCarrito}
         />
       )}
+
+      {/* Pantalla Carrito */}
       {pantallaActual === 'carrito' && (
-        <CarritoScreen 
-          carrito={carrito} 
-          onVolver={() => setPantallaActual('menu')} 
+        <CarritoScreen
+          carrito={carrito}
+          onVolver={() => setPantallaActual('menu')}
           onModificarCantidad={modificarCantidad}
-          onProcederCheckout={() => setPantallaActual('checkout')}
+          onProcederCheckout={() =>
+            setPantallaActual('checkout')
+          }
           total={obtenerTotal()}
         />
       )}
+
+      {/* Pantalla Checkout */}
       {pantallaActual === 'checkout' && (
-        <CheckoutScreen 
-          fields={form} 
-          setFields={setForm} 
-          total={obtenerTotal()} 
+        <CheckoutScreen
+          fields={form}
+          setFields={setForm}
+          total={obtenerTotal()}
           onVolver={() => setPantallaActual('carrito')}
           onConfirmar={procesarCompraConApi}
         />
       )}
+
+      {/* Pantalla Factura */}
       {pantallaActual === 'factura' && (
-        <FacturaScreen 
-          nombre={form.nombre} 
-          correo={form.correo} 
-          direccion={form.direccion} 
+        <FacturaScreen
+          nombre={form.nombre}
+          correo={form.correo}
+          direccion={form.direccion}
           carrito={carrito}
           total={obtenerTotal()}
           onFinalizar={limpiarYRegresar}
@@ -154,7 +264,21 @@ export default function App() {
 }
 
 const styles = StyleSheet.create({
-  safeArea: { flex: 1, backgroundColor: '#111' },
-  bloqueo: { flex: 1, backgroundColor: '#000', justifyContent: 'center', alignItems: 'center' },
-  txt: { color: '#E50914', fontSize: 18, fontWeight: 'bold' }
+  safeArea: {
+    flex: 1,
+    backgroundColor: '#111',
+  },
+  bloqueo: {
+    flex: 1,
+    backgroundColor: '#000',
+    justifyContent: 'center',
+    alignItems: 'center',
+  },
+  txt: {
+    color: '#E50914',
+    fontSize: 18,
+    fontWeight: 'bold',
+    textAlign: 'center',
+    paddingHorizontal: 20,
+  },
 });
