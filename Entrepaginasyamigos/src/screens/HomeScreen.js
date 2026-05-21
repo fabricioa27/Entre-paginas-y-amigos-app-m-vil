@@ -9,10 +9,7 @@ const { width } = Dimensions.get('window');
 // Enlaces locales apuntando a tu XAMPP
 const API_OBTENER_LIBROS = "http://192.168.1.14/api/obtener_libros.php"; 
 const API_GUARDAR_PEDIDO = "http://192.168.1.14/api/guardar_pedido.php"; 
-<<<<<<< HEAD
 
-=======
->>>>>>> 3a3c2ccad9498b3b469f5209910c08e6d0ae9769
 export default function HomeScreen() {
   const [currentTab, setCurrentTab] = useState('home'); 
   const isAdmin = auth.currentUser?.email === 'emersonarevalo77@gmail.com';
@@ -75,10 +72,7 @@ export default function HomeScreen() {
       setCarrito([...carrito, { ...libro, cantidad: 1 }]);
     }
   };
-<<<<<<< HEAD
 
-=======
->>>>>>> 3a3c2ccad9498b3b469f5209910c08e6d0ae9769
   const actualizarCantidadCarrito = (id, incremento) => {
     const item = carrito.find(i => i.id === id);
     const libroOriginal = libros.find(l => l.id === id);
@@ -113,12 +107,8 @@ export default function HomeScreen() {
       items: carrito.map(i => ({ nombre: i.nombre, cantidad: i.cantidad, precio: i.precio }))
     };
 
-<<<<<<< HEAD
     try {
       const response = await fetch(API_GUARDAR_PEDIDO, {
-=======
-    try { const response = await fetch(API_GUARDAR_PEDIDO, {
->>>>>>> 3a3c2ccad9498b3b469f5209910c08e6d0ae9769
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify(pedidoData)
@@ -185,11 +175,7 @@ export default function HomeScreen() {
             />
           </View>
 
-<<<<<<< HEAD
           <FlatList 
-=======
-           <FlatList 
->>>>>>> 3a3c2ccad9498b3b469f5209910c08e6d0ae9769
             data={librosFiltrados}
             keyExtractor={(item) => item.id.toString()}
             numColumns={2}
@@ -325,7 +311,6 @@ export default function HomeScreen() {
   );
 }
 
-// ... Mantén exactamente tus mismos estilos del HomeScreen abajo ...
 const styles = StyleSheet.create({
   container: { flex: 1, backgroundColor: '#221F1F' },
   tabContent: { flex: 1, paddingHorizontal: 20, paddingTop: 20, marginBottom: 70 },
@@ -347,12 +332,8 @@ const styles = StyleSheet.create({
   cartItem: { backgroundColor: '#2D2D2D', padding: 15, borderRadius: 10, marginBottom: 10, flexDirection: 'row', justifyContent: 'space-between', alignItems: 'center' },
   cartItemName: { color: '#FFF', fontSize: 15, fontWeight: '500', width: '60%' },
   qtyRow: { flexDirection: 'row', alignItems: 'center' },
-<<<<<<< HEAD
   qtyBtn: { backgroundColor: '#B20710', width: 30, height: 30, borderRadius: 5, justifyContent: 'center', alignItems: 'center' },
   qtyBtnText: { color: '#FFF', fontWeight: 'bold', fontSize: 16 },
-=======
-  qtyBtn: { backgroundColor: '#B20710', width: 30, height: 30, borderRadius: 5, justifyContent: 'center', alignItems: 'center' },qtyBtnText: { color: '#FFF', fontWeight: 'bold', fontSize: 16 },
->>>>>>> 3a3c2ccad9498b3b469f5209910c08e6d0ae9769
   qtyText: { color: '#FFF', marginHorizontal: 12, fontSize: 16, fontWeight: 'bold' },
   checkoutFooter: { marginTop: 'auto', borderTopWidth: 1, borderColor: '#444', paddingTop: 15 },
   totalText: { color: '#FFF', fontSize: 22, fontWeight: 'bold', textAlign: 'right', marginBottom: 15 },
