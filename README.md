@@ -106,8 +106,10 @@ CREATE TABLE pedidos (
 ---
 
 ## Hecho por:
-
-
-
+Emerson Fabricio Arévalo González    ||    AG250495
+Josué Gabriel Vásquez Echegoyen      ||    VE250083
+Nayeli Eunice Huezo Guevara          ||    HG251807
+Arturo Moisés Rodríguez Arias        ||    RA240290
+Carlos Roberto Luna Diaz             ||    LD252724
 
 
